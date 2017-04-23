@@ -8,7 +8,7 @@ headers = {'User-Agent':
 #fill in the things
 def main(limit):
     for i in range(1, limit):
-        email = 'datedcupcakes+{}@gmail.com'.format(getrandbits(40))
+        email = 'youremail+{}@gmail.com'.format(getrandbits(40)) #change youremail to youremail do not change anything after
         payload = {
                         'email' : email,
                         'first_name' : '', #first name
