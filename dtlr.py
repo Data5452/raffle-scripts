@@ -22,7 +22,7 @@ def main(limit):
                         'city' : '', #city you live in
                         'state' : '', #fill out full name of state ex: New York do not use NY
                         'postal/zip_code' : '', #zip code
-                        'country' : '164', #default USA change 164 if you are in the UK replace 164 with 262
+                        'country' : '164', #default USA change 164 if you are in the UK replace 164 with 262 Canada is 30
                         'mce-group[149]' : '[1]' #leave it be
                 }
         resp = requests.post(url, data=payload, headers=headers)
