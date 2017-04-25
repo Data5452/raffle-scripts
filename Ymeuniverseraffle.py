@@ -9,9 +9,9 @@ headers = {'User-Agent':
 def main(limit):
     for i in range(1, limit):
         email = 'youremail+{}@gmail.com'.format(getrandbits(40)) # CHANGE YOUR_EMAIL to your email prefix. don't change the +{} after.
-        Name : '' #first and last name here
-        Shoe_Size : '' #UK sizing find out and fill like this 9 or 9.5
-        Enter_City : '' #city you live in
+        Name = '' #first and last name here
+        Shoe_Size = '' #UK sizing find out and fill like this 9 or 9.5
+        Enter_City = '' #city you live in
         payload = {
 
             'action': 'contest',
